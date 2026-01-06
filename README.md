@@ -21,16 +21,31 @@ engineering, marketing, and operations workstreams.
 
 ## Project Structure
 
-├── README.md
-├── requirements.txt
-├── schema.sql
-├── .env.example
+Project Structure
+├── README.md                # Project overview, setup, and usage
+├── requirements.txt         # Python dependencies
+├── schema.sql               # SQLite database schema (DDL)
+├── .env.example             # Environment variable template
 ├── src/
-│ ├── main.py
-│ ├── generators/
-│ └── utils/
+│   ├── main.py              # Entry point and orchestration logic
+│   ├── generators/          # Data generation modules
+│   │   ├── organizations.py
+│   │   ├── users.py
+│   │   ├── teams.py
+│   │   ├── projects.py
+│   │   ├── sections.py
+│   │   ├── tasks.py
+│   │   ├── subtasks.py
+│   │   ├── comments.py
+│   │   ├── tags.py
+│   │   └── custom_fields.py
+│   └── utils/               # Shared utilities and helpers
+│       ├── db.py
+│       ├── dates.py
+│       └── random.py
 ├── output/
-│ └── asana_simulation.sqlite
+│   └── asana_simulation.sqlite  # Generated Asana workspace database
+
 
 
 ---
