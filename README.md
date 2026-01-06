@@ -21,8 +21,6 @@ engineering, marketing, and operations workstreams.
 
 ## Project Structure
 
-## Project Structure
-
 ```text
 ├── README.md                # Project overview, setup, and usage
 ├── requirements.txt         # Python dependencies
