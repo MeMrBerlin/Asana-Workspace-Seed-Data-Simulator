@@ -21,7 +21,9 @@ engineering, marketing, and operations workstreams.
 
 ## Project Structure
 
-Project Structure
+## Project Structure
+
+```text
 ├── README.md                # Project overview, setup, and usage
 ├── requirements.txt         # Python dependencies
 ├── schema.sql               # SQLite database schema (DDL)
@@ -45,10 +47,8 @@ Project Structure
 │       └── random.py
 ├── output/
 │   └── asana_simulation.sqlite  # Generated Asana workspace database
+```
 
-
-
----
 
 ## Setup Instructions
 
